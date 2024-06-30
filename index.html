@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek Challenge</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <!-- Link FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="/assets/image 1.png" alt="">
+        <h1>AluraGeek</h1>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="produtos">
+        <section class="container">
+          <h1 class="titulo-container">Ofereça aqui seus produtos:</h1>
+          <div class="container-products" data-card>
+            <span class="mesagem-produto"></span>
+          </div>
+        </section>
+
+        <section>
+          <div class="formulario">
+            <h2 claa="titulo-form">ADICIONAR PRODUTO PARA VENDA:</h2>
+              <form class="form-container" data-formulario>
+                    <input data-name type="text" name="name" placeholder="nome..." minlength="3" required>
+                    <span class="mensagem-erro"></span>
+                    <input data-price type="text" name="price" placeholder="valor..." minlength="4" required>
+                    <span class="mensagem-erro"></span>
+                    <input data-image type="text" name="image" placeholder="imagem..." pattern="https://.*" required>
+                    <span class="mensagem-erro"></span>
+                    <div class="btn-formulario-container">
+                        <button type="submit" class="button-submit" id="button">Guardar</button>
+                        <button type="reset" class="button-clean" id="button"><span>Limpar</span></button>
+                    </div>
+              </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+      <div class="container-geral-footer">
+        <div class="footer-logo">
+          <img src="/assets/image 1.png" alt="logo-rodape">
+          <h3>AluraGeek</h3>
+        </div>
+        <div class="footer-dev">
+          <p>Desenvolvido por <a href="">Rocio Gonzalez</a></p>
+          <p>ALURA LATAM - 2024</p>
+        </div>
+    </div>
+    </footer>
+
+    <script src="/js/mostrarProdutos.js" type="module"></script>
+    <script src="/js/validador.js"></script>
+    </body>
+</html>

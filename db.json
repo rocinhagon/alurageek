@@ -1,0 +1,16 @@
+{
+  "games": [
+    {
+      "id": "0d09",
+      "nome": "Animal Crossing",
+      "preco": "23,00",
+      "imagem": "https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_3ds_26/SQ_3DS_AnimalCrossingNewLeaf_WelcomeAmiibo_image380w.jpg"
+    },
+    {
+      "id": "e2d9",
+      "nome": "Mario Kart",
+      "preco": "56,00",
+      "imagem": "https://cellshop.com.py/media/catalog/product/1/0/1084252_1_1.jpg"
+    }
+  ]
+}
